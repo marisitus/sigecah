@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+    <string name="app_name">SIGECAH</string>
+
+    <!-- LoginActivity.java and activity_login.xml -->
+
+    <string name="dni">DNI</string>
+    <string name="nhabitacion">Nº habitación</string>
+    <string name="entrar">Entrar</string>
+    <string name="rellene_campos">Rellene todos los campos por favor</string>
+    <string name="iniciando_sesion">Iniciando sesión…</string>
+    <string name="no_registrado">Usted no está registrado en ningún hotel</string>
+    <string name="problema_servidor">Ha ocurrido un problema con la conexión. Vuelva a intentarlo más tarde</string>
+
+    <!-- MainActivity.java and activity_main.xml -->
+
+    <string name="selecciona_seccion">Selecciona sección</string>
+
+    <string-array name="secciones_array">
+        <item>Inicio</item>
+        <item>Animaciones</item>
+        <item>Eventos</item>
+        <item>Servicios</item>
+        <item>Ofertas</item>
+        <item>Sitios de interés</item>
+        <item>Salir</item>
+    </string-array>
+
+    <!-- InicioFragment.java and fragmen_inicio.xml-->
+
+    <string name="hola">Hola</string>
+    <string name="disfrute_estancia">, disfrute de su estancia en el hotel</string>
+    <string name="tiempo">El tiempo en</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="importante">GPS DESHABILITADO</string>
+    <string name="cuerpo_importante">Por favor active el GPS para ver el tiempo actual.</string>
+    <string name="active_gps">Si desea ver el tiempo actual, active la señal GPS y actualice la pestaña de Inicio</string>
+    <string name="open_drawer">Drawer abierto</string>
+    <string name="close_drawer">Drawer cerrado</string>
+
+    <!-- DetallesAnimacionActivity.java and activity_detalles_animacion.xml-->
+
+    <string name="title_activity_detalles_animacion">Animaciones</string>
+    <string name="animacion_completa">Animación completa</string>
+    <string name="inscrito">Inscrito</string>
+    <string name="inscribir">Inscribir</string>
+
+    <string name="excedeNumero1">Sólo hay</string>
+    <string name="excedeNumero2">plazas disponibles</string>
+
+    <string name="title_dialog">IMPORTANTE</string>
+    <string name="body_dialog">¿Está seguro de inscribirse en esta animación?</string>
+    <string name="aceptar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="realizara">Se realizará en:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="plazas_disponibles">Plazas disponibles:</string>
+    <string name="seleccione_personas">Selecione cuantas personas desea inscribir:</string>
+    <string name="title_confirmacion">Inscripción correcta</string>
+    <string name="body_confirmacion">Se ha inscrito satisfactoriamente en esta animación</string>
+    <string name="body_no_confirmacion">Lo siento, no ha podido inscribirse. Inténtelo más tarde</string>
+
+    <!-- DetallesEventoActivity.java and activity_detalles_evento.xml-->
+
+    <string name="title_activity_detalles_evento">Eventos</string>
+    <string name="fecha">Fecha:</string>
+    <string name="hora">Hora:</string>
+    <string name="de">De</string>
+    <string name="a">a</string>
+
+    <!-- DetallesOfertaActivity.java and activity_detalles_oferta.xml-->
+
+    <string name="title_activity_detalles_oferta">Ofertas</string>
+    <string name="fecha_inicio">Fecha inicio:</string>
+    <string name="fecha_fin">Fecha Fin:</string>
+    <string name="precio">Precio:</string>
+    <string name="euros">€</string>
+    <string name="tienda">Tienda:</string>
+
+    <!-- DetallesServicioActivity.java and activity_detalles_servicio.xml-->
+
+    <string name="title_activity_detalles_servicio">Servicios</string>
+    <string name="precio_adicional">Precio adicional:</string>
+
+    <!-- DetallesSitioActivity.java and activity_detalles_sitio.xml-->
+
+    <string name="title_activity_detalles_sitio">Sitios de interés</string>
+
+    <!---->
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

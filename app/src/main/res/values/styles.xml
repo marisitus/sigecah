@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/azul_medianoche</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+
+
+    <color name="azul_medianoche">#002F49</color>
+    <color name="azul_medianoche_claro">#00557D</color>
+    <color name="azul_medio">#286BB4</color>
+
+</resources>

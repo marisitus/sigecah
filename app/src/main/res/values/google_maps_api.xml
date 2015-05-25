@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="google_maps_key_apk" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyBLi0WUdI8O0r7t8qJXOUFuaS3hmFgWi1Q
+    </string>
+
+    <string name="google_maps_key_device_android_studio" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyBp3_Dre3DMkAeTUPUnW8T38Rfwrry6cMA
+    </string>
+
+</resources>

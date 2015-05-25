@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/nombreEvento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textColor="@color/azul_medianoche_claro"
+                android:textStyle= "bold|italic"
+                android:textAllCaps="true"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/logoEvento"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/nombreEvento"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/lugarEvento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logoEvento"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/tipoEvento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lugarEvento"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/fechaEvento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tipoEvento"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/horaEvento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fechaEvento"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/descripcionEvento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horaEvento"
+                android:layout_marginTop="15dp"/>
+
+        </RelativeLayout>
+
+</ScrollView>
