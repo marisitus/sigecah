@@ -61,7 +61,7 @@
     <string name="seleccione_personas">Selecione cuantas personas desea inscribir:</string>
     <string name="title_confirmacion">Inscripción correcta</string>
     <string name="body_confirmacion">Se ha inscrito satisfactoriamente en esta animación</string>
-    <string name="body_no_confirmacion">Lo siento, no ha podido inscribirse. Inténtelo más tarde</string>
+    <string name="body_no_confirmacion">Lo sentimos, no ha podido inscribirse. Inténtelo más tarde</string>
 
     <!-- DetallesEventoActivity.java and activity_detalles_evento.xml-->
 
@@ -74,7 +74,7 @@
     <!-- DetallesOfertaActivity.java and activity_detalles_oferta.xml-->
 
     <string name="title_activity_detalles_oferta">Ofertas</string>
-    <string name="fecha_inicio">Fecha inicio:</string>
+    <string name="fecha_inicio">Fecha Inicio:</string>
     <string name="fecha_fin">Fecha Fin:</string>
     <string name="precio">Precio:</string>
     <string name="euros">€</string>
